@@ -13,7 +13,7 @@ The addon safely transfers the player's inventory, armor, offhand, selected hotb
 - Minecraft Bedrock 26.40 or newer
 - Realms and Bedrock Dedicated Server
 - Beta APIs experiment required
-- Not compatible with LAN-hosted worlds because the host cannot be kicked
+- Not compatible with LAN-hosted worlds because kicked players are temporarily banned until the world restarts
 
 The addon uses `@minecraft/server-gametest` `1.0.0-beta` to create simulated players. The remaining Script API and server UI dependencies are stable.
 
