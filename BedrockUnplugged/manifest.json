@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "BedrockUnplugged",
+    "description": "Persistent AFK player ghosts for Minecraft Bedrock multiplayer. Compatible with Realms and BDS; not compatible with LAN worlds.",
+    "uuid": "52f14e9f-d372-46b2-982d-08420b590ca8",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 40]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "a429c267-adb6-42f2-9822-4a31da0ce773",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.9.0"
+    },
+    {
+      "module_name": "@minecraft/server-gametest",
+      "version": "1.0.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "metadata": {
+    "authors": ["BedrockUnplugged"],
+    "license": "MIT",
+    "product_type": "addon"
+  }
+}
