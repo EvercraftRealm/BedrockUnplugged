@@ -1,6 +1,8 @@
 # BedrockUnplugged
 
-BedrockUnplugged leaves a simulated-player ghost behind when a player disconnects, allowing farms and nearby game systems to continue treating that position as occupied. It is inspired by Unplugged AFK for Java Edition.
+BedrockUnplugged leaves a simulated-player ghost behind when a player disconnects, allowing farms and nearby game systems to continue treating that position as occupied.
+
+BedrockUnplugged is inspired by the concept behind [Unplugged AFK](https://modrinth.com/mod/unplugged-afk) for Java Edition. However, this is an independent implementation built specifically for Minecraft Bedrock and does not use or derive from the original mod's code.
 
 The addon safely transfers the player's inventory, armor, offhand, selected hotbar slot, and XP to the ghost. Persistent escrow protects those resources across Realm or server restarts and returns them when the player rejoins.
 
